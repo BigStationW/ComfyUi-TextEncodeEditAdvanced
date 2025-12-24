@@ -5,7 +5,7 @@ Qwen Image Edit uses a Vision Language Model (VLM) to analyze your input images 
 
 The default TextEncodeQwenImageEdit node downscales your images to 0.15 megapixels before feeding them to the VLM.
 
-This custom node gives you control over that threshold, allowing you to eventually find a better sweet spot for your specific use case.
+This custom node gives you control over that threshold (vl_megapixels), allowing you to eventually find a better sweet spot for your specific use case.
 
 By adjusting this threshold, you may achieve:
 

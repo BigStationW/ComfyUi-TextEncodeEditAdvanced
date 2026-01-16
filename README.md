@@ -21,14 +21,14 @@ When going for vl_megapixels = 0, it has the same effect as stacking multiple Re
 Navigate to the **ComfyUI/custom_nodes** folder, [open cmd](https://www.youtube.com/watch?v=bgSSJQolR0E&t=47s) and run:
 
 ```bash
-git clone https://github.com/BigStationW/ComfyUi-TextEncodeQwenImageEditAdvanced
+git clone https://github.com/BigStationW/ComfyUi-TextEncodeEditAdvanced
 ```
 
 Restart ComfyUI after installation.
 
 
 ## Usage
-Find the **TextEncodeQwenImageEditAdvanced** node
+Find the **TextEncodeEditAdvanced** node
 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/d8cae86d-bc5e-42ee-a04f-abbe5380effd" />
 

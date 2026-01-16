@@ -1,5 +1,5 @@
 [project]
-name = "textencodeqwenimageeditadvanced"
+name = "textencodeeditadvanced"
 description = "Qwen Image Edit uses a Vision Language Model to analyze input images and automatically enhance prompts with detailed descriptions."
 version = "1.0.0"
 license = {file = "LICENSE"} 
@@ -22,14 +22,14 @@ license = {file = "LICENSE"}
 
 
 [project.urls]
-Repository = "https://github.com/BigStationW/ComfyUi-TextEncodeQwenImageEditAdvanced"
+Repository = "https://github.com/BigStationW/ComfyUi-TextEncodeEditAdvanced"
 #  Used by Comfy Registry https://registry.comfy.org
-Documentation = "https://github.com/BigStationW/ComfyUi-TextEncodeQwenImageEditAdvanced/wiki"
-"Bug Tracker" = "https://github.com/BigStationW/ComfyUi-TextEncodeQwenImageEditAdvanced/issues"
+Documentation = "https://github.com/BigStationW/ComfyUi-TextEncodeEditAdvanced/wiki"
+"Bug Tracker" = "https://github.com/BigStationW/ComfyUi-TextEncodeEditAdvanced/issues"
 
 [tool.comfy]
 PublisherId = "bigstationw"
-DisplayName = "ComfyUi-TextEncodeQwenImageEditAdvanced"
+DisplayName = "ComfyUi-TextEncodeEditAdvanced"
 Icon = ""
 includes = [] 
 # "requires-comfyui" = ">=1.0.0"  # ComfyUI version compatibility

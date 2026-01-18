@@ -1,8 +1,8 @@
 {
   "id": "92112d97-bb64-4b44-86f2-ea5691ef8f6e",
   "revision": 0,
-  "last_node_id": 154,
-  "last_link_id": 289,
+  "last_node_id": 156,
+  "last_link_id": 299,
   "nodes": [
     {
       "id": 99,
@@ -395,7 +395,7 @@
         {
           "name": "conditioning",
           "type": "CONDITIONING",
-          "link": 289
+          "link": 299
         }
       ],
       "outputs": [
@@ -580,7 +580,7 @@
           "name": "CLIP",
           "type": "CLIP",
           "links": [
-            285
+            295
           ]
         }
       ],
@@ -616,7 +616,7 @@
           "type": "VAE",
           "links": [
             184,
-            286
+            296
           ]
         }
       ],
@@ -710,7 +710,7 @@
           "links": [
             214,
             248,
-            287
+            297
           ]
         },
         {
@@ -743,72 +743,6 @@
         "crop",
         "lanczos",
         ""
-      ]
-    },
-    {
-      "id": 154,
-      "type": "TextEncodeEditAdvanced",
-      "pos": [
-        123.18811113150419,
-        717.1050291142666
-      ],
-      "size": [
-        425.3777035461426,
-        370.4864203308101
-      ],
-      "flags": {},
-      "order": 13,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 285
-        },
-        {
-          "name": "vae",
-          "shape": 7,
-          "type": "VAE",
-          "link": 286
-        },
-        {
-          "name": "image1",
-          "shape": 7,
-          "type": "IMAGE",
-          "link": 287
-        },
-        {
-          "name": "image2",
-          "shape": 7,
-          "type": "IMAGE",
-          "link": 288
-        },
-        {
-          "name": "image3",
-          "shape": 7,
-          "type": "IMAGE",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            289
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "textencodeeditadvanced",
-        "ver": "1a1bf8cc032fea64affce2e2dbfbd479585481f8",
-        "Node name for S&R": "TextEncodeEditAdvanced",
-        "aux_id": "BigStationW/ComfyUi-TextEncodeEditAdvanced"
-      },
-      "widgets_values": [
-        "The two characters are playing poker",
-        0,
-        "3"
       ]
     },
     {
@@ -877,7 +811,7 @@
           "type": "IMAGE",
           "links": [
             249,
-            288
+            298
           ]
         },
         {
@@ -953,15 +887,81 @@
       ]
     },
     {
+      "id": 156,
+      "type": "TextEncodeEditAdvanced",
+      "pos": [
+        132.86811113150412,
+        681.136150482675
+      ],
+      "size": [
+        410.8576296936035,
+        302.726494183349
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 295
+        },
+        {
+          "name": "vae",
+          "shape": 7,
+          "type": "VAE",
+          "link": 296
+        },
+        {
+          "name": "image1",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 297
+        },
+        {
+          "name": "image2",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 298
+        },
+        {
+          "name": "image3",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            299
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "textencodeeditadvanced",
+        "ver": "1a1bf8cc032fea64affce2e2dbfbd479585481f8",
+        "Node name for S&R": "TextEncodeEditAdvanced",
+        "aux_id": "BigStationW/ComfyUi-TextEncodeEditAdvanced"
+      },
+      "widgets_values": [
+        "The two characters are playing poker",
+        0,
+        "3"
+      ]
+    },
+    {
       "id": 153,
       "type": "Note",
       "pos": [
-        192.95053698532746,
-        1156.8216191107472
+        182.4119493166484,
+        1050.3737437278905
       ],
       "size": [
-        288.10249959999965,
-        159.60116230014
+        295.3752268727269,
+        155.9647986637765
       ],
       "flags": {},
       "order": 7,
@@ -970,7 +970,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "If you only want the first image to be processed, go for max_image_allowed = 1\n\nIf you want a pure text2image behavior, go for max_image_allowed = 0"
+        "If you only want the first image to be processed, go for max_images_allowed = 1\n\nIf you want a pure text2image behavior, go for max_images_allowed = 0"
       ],
       "color": "#c09430",
       "bgcolor": "rgba(24,24,27,.9)"
@@ -1154,40 +1154,40 @@
       "IMAGE"
     ],
     [
-      285,
+      295,
       150,
       0,
-      154,
+      156,
       0,
       "CLIP"
     ],
     [
-      286,
+      296,
       105,
       0,
-      154,
+      156,
       1,
       "VAE"
     ],
     [
-      287,
+      297,
       115,
       0,
-      154,
+      156,
       2,
       "IMAGE"
     ],
     [
-      288,
+      298,
       133,
       0,
-      154,
+      156,
       3,
       "IMAGE"
     ],
     [
-      289,
-      154,
+      299,
+      156,
       0,
       139,
       1,
@@ -1198,10 +1198,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.35049389948139237,
+      "scale": 0.3504938994813929,
       "offset": [
-        1484.7233927965465,
-        32.30251809306884
+        1402.784456478424,
+        73.69460037873525
       ]
     },
     "frontendVersion": "1.36.14",
